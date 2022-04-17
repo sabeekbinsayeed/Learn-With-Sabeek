@@ -3,7 +3,7 @@ import image from '../../images/banner.jpg'
 
 const Banner = () => {
     return (
-        <div style={{ paddingLeft: '70px', paddingTop: '30px' }} className=' row  '>
+        <div style={{ paddingLeft: '70px', paddingTop: '30px', marginBottom: '30px' }} className=' row  '>
 
             <div className='col-lg-6 col-12 '>
 

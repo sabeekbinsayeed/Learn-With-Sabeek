@@ -8,6 +8,8 @@ import Blogs from './components/Blogs/Blogs';
 import Register from './components/Register/Register';
 import Login from './components/Login/Login';
 import Checkout from './components/Checkout/Checkout';
+import RequireAuth from './components/RequireAuth/RequireAuth';
+import Footer from './components/Shared/Footer/Footer';
 
 
 
@@ -24,8 +26,14 @@ function App() {
         <Route path='/courses' element={<Courses></Courses>}></Route>
         <Route path='/register' element={<Register></Register>}></Route>
         <Route path='/login' element={<Login></Login>}></Route>
-        <Route path='/checkout' element={<Checkout></Checkout>}></Route>
+        <Route path="/checkout" element={
+          <RequireAuth>
+            <Checkout />
+          </RequireAuth>
+        } />
       </Routes>
+
+      <Footer></Footer>
 
     </div>
   );

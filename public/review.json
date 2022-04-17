@@ -1,0 +1,44 @@
+[
+    {
+        "id": "1",
+        "name": "Yusuf Bin Salman",
+        "review": "Their course are very good. I have always taken courses from them. Just loved their materials.",
+        "course": "python",
+        "rating": 5
+    },
+    {
+        "id": "2",
+        "name": "Hazzaz Bin Hasan",
+        "course": "java",
+        "review": "Their course is very good. It is very informative. Just loved their products.",
+        "rating": 5
+    },
+    {
+        "id": "3",
+        "name": "Rakib Rifat",
+        "course": "javascript",
+        "review": "I took their courses. It is good. But some products quality can still be improved",
+        "rating": 4.5
+    },
+    {
+        "id": "4",
+        "name": "Salman Mollik",
+        "course": "python",
+        "review": "very good course. Love to take their books. Everybody should use their products",
+        "rating": 5
+    },
+    {
+        "id": "5",
+        "name": "Ayon Ahsraf",
+        "course": "programming",
+        "review": "Their course is very good. It is very informative. Just loved their products.",
+        "rating": 5
+    },
+    {
+        "id": "6",
+        "name": "shafkat Shihab",
+        "course": "programming",
+        "review": "Their course is very good. I have always taken courses from them. Just loved their products.",
+        "rating": 5
+    }
+]
