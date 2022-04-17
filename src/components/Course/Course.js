@@ -1,5 +1,6 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
+import './Course.css'
 
 const Course = (props) => {
     const { id, name, price, img, description } = props.course;
@@ -15,7 +16,9 @@ const Course = (props) => {
 
             <h3>price : {price}</h3>
             <p className='w-50'>{description}</p>
-            <button style={{ color: 'orange' }} onClick={handleCheckout}>Checkout</button>
+            <div >
+                <button id='button-checkout' style={{ color: 'orange' }} onClick={handleCheckout}><span style={{ color: 'black' }}> checkout</span></button>
+            </div>
 
         </div>
     );
