@@ -5,6 +5,9 @@ import Home from './components/Home/Home';
 import Courses from './components/Courses/Courses';
 import Header from './components/Shared/Header/Header';
 import Blogs from './components/Blogs/Blogs';
+import Register from './components/Register/Register';
+import Login from './components/Login/Login';
+import Checkout from './components/Checkout/Checkout';
 
 
 
@@ -19,6 +22,9 @@ function App() {
         <Route path="/home" element={<Home></Home>}></Route>
         <Route path="/blogs" element={<Blogs></Blogs>}></Route>
         <Route path='/courses' element={<Courses></Courses>}></Route>
+        <Route path='/register' element={<Register></Register>}></Route>
+        <Route path='/login' element={<Login></Login>}></Route>
+        <Route path='/checkout' element={<Checkout></Checkout>}></Route>
       </Routes>
 
     </div>
