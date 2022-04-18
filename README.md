@@ -1,16 +1,11 @@
-# Getting Started with Create React App
+# Learn with Sabeek
 
 live site link [click here] (https://independent-service-413ed.web.app/)
 
 <!-- This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). -->
-## Learn with Sabeek
 
 
-## Available Scripts
 
-In the project directory, you can run:
-
-### `npm start`
 
 ## Features
 - Review of products given by our customers
