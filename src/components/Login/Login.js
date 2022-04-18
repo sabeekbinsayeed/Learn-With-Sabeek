@@ -66,17 +66,15 @@ const Login = () => {
             <Form onSubmit={handleSubmit} >
                 <Form.Group className="mb-3" controlId="formBasicEmail">
                     <Form.Label style={{ color: 'orangeRed', fontWeight: '500' }}>Email address</Form.Label>
-                    <Form.Control ref={emailRef} type="email" placeholder="Enter email" />
+                    <Form.Control ref={emailRef} type="email" placeholder="Enter email" required />
 
                 </Form.Group>
 
                 <Form.Group className="mb-3" controlId="formBasicPassword">
                     <Form.Label style={{ color: 'orangeRed', fontWeight: '500' }}><bold>Password</bold></Form.Label>
-                    <Form.Control ref={passRef} type="password" placeholder="Password" />
+                    <Form.Control ref={passRef} type="password" placeholder="Password" required />
                 </Form.Group>
-                {/* <Form.Group className="mb-3" controlId="formBasicCheckbox">
-                    <Form.Check type="checkbox" label="Check me out" />
-                </Form.Group> */}
+
                 <Button style={{ backgroundColor: 'orangered', color: 'white' }} variant=" w-50 mx-auto d-block mb-2" type="submit">
                     Login
                 </Button>

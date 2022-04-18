@@ -61,7 +61,7 @@ const Register = () => {
 
 
 
-        //createUserWithEmailAndPassword(email, password);
+
     }
 
     return (
@@ -76,7 +76,7 @@ const Register = () => {
 
                 <div className=' half register-form me-5 pe-5' style={{ marginTop: '70px' }}>
                     <form onSubmit={handleRegister}>
-                        <input type="text" name="name" id="" placeholder='Your Name' />
+                        <input type="text" name="name" id="" placeholder='Your Name' required />
 
                         <input type="email" name="email" id="" placeholder='Email Address' required />
 

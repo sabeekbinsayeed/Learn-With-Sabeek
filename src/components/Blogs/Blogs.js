@@ -2,7 +2,7 @@ import React from 'react';
 
 const Blogs = () => {
     return (
-        <div>
+        <div style={{ minHeight: '100vh' }}>
             <h1>blogs</h1>
             <h2>Why are you using firebase? What other options do you have to implement authentication?</h2>
             <p className='w-75'> answer:
@@ -57,6 +57,9 @@ const Blogs = () => {
                 </ul>
 
             </p>
+
+            <h2>Authrizationa vs Authentication</h2>
+            <p> authentication is the process of verifying who someone is, whereas authorization means giving the permission of doing specific tasks like admin dashboard. So Authentication  is to check person's details to identify him and autherization is to validate person's permissions</p>
         </div>
     );
 };

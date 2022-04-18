@@ -1,6 +1,8 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+live site link [click here] (https://independent-service-413ed.web.app/)
+
+<!-- This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). -->
 ## Learn with Sabeek
 
 
@@ -30,7 +32,7 @@ In the project directory, you can run:
 - Bootstrap
  - React router dom
  - Html
- - Css
+ - CSS
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.

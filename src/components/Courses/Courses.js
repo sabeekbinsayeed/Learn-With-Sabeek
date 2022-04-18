@@ -11,6 +11,8 @@ const Courses = () => {
         <div>
             <h1 style={{ color: 'orangered' }} className='text-center mb-4'>Services</h1>
             <h4 className='text-center mb-5'>total courses {courses.length}</h4>
+            {/* data map for showing in course */}
+
             <div className='courses ms-5'>
 
                 {
