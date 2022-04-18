@@ -10,12 +10,20 @@ In the project directory, you can run:
 
 ### `npm start`
 
-## technologies used
- - react
+## Features
+-Personal Website
+-Learn with Sabeek
+-See courses
+-Go to different routes
+-Private and protected route
+-Authentication sytem
+-About me
+## Technologies used
+ -react
  -firebase
- - react firebase hooks
+ -react firebase hooks
  -bootstrap
- - react router dom
+ -react router dom
  -html
  -css
 
