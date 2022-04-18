@@ -21,9 +21,9 @@ const Header = () => {
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="me-auto ms-3">
-                            <Nav.Link as={Link} to="/courses">Courses</Nav.Link>
-                            <Nav.Link as={Link} to="/blogs">Blogs</Nav.Link>
-
+                            <Nav.Link style={{ color: 'white' }} as={Link} to="/courses">Courses</Nav.Link>
+                            <Nav.Link style={{ color: 'white' }} as={Link} to="/blogs">Blogs</Nav.Link>
+                            <Nav.Link style={{ color: 'white' }} as={Link} to="/about">About</Nav.Link>
                         </Nav>
                         <Nav className='d-flex'>
 
@@ -32,17 +32,17 @@ const Header = () => {
                             {
                                 user ?
                                     <div className='d-flex justify-content-center align-items-center'>
-                                        <button onClick={handleSignOut} className='me-2'>sign out</button>
+                                        <button style={{ color: 'white' }} onClick={handleSignOut} className='me-2'>sign out</button>
 
                                         <p>{user.email}</p>
 
                                     </div> :
-                                    <div className='d-flex justify-content-center align-items-center'>
-                                        <Nav.Link as={Link} to="register">
+                                    <div style={{ color: 'white' }} className='d-flex justify-content-center align-items-center'>
+                                        <Nav.Link style={{ color: 'white' }} as={Link} to="register">
                                             Register
                                         </Nav.Link>
 
-                                        <Nav.Link as={Link} to="login">
+                                        <Nav.Link style={{ color: 'white' }} as={Link} to="login">
                                             Login
                                         </Nav.Link>
                                     </div>

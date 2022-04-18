@@ -2,3 +2,10 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 }
+
+/* mobile device */
+@media only screen and (max-width:668px) {
+    .courses {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

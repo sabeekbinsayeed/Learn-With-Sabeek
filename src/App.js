@@ -10,6 +10,8 @@ import Login from './components/Login/Login';
 import Checkout from './components/Checkout/Checkout';
 import RequireAuth from './components/RequireAuth/RequireAuth';
 import Footer from './components/Shared/Footer/Footer';
+import About from './About/About';
+import Notfound from './components/Notfound/Notfound';
 
 
 
@@ -26,14 +28,18 @@ function App() {
         <Route path='/courses' element={<Courses></Courses>}></Route>
         <Route path='/register' element={<Register></Register>}></Route>
         <Route path='/login' element={<Login></Login>}></Route>
+        <Route path='/about' element={<About></About>}></Route>
         <Route path="/checkout" element={
           <RequireAuth>
             <Checkout />
           </RequireAuth>
+
         } />
+        <Route path='*' element={<Notfound></Notfound>}></Route>
       </Routes>
 
       <Footer></Footer>
+
 
     </div>
   );

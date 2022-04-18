@@ -3,3 +3,9 @@
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 2px;
 }
+
+@media only screen and (max-width:668px) {
+    .reviews {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
