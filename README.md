@@ -11,21 +11,26 @@ In the project directory, you can run:
 ### `npm start`
 
 ## Features
--Personal Website
--Learn with Sabeek
--See courses
--Go to different routes
--Private and protected route
--Authentication sytem
--About me
+- Review of products given by our customers
+- Dashboard for seeing statistics
+- Read blogs
+- User friendly interface
+
+- Personal Website
+- Learn with Sabeek
+- See courses
+- Go to different routes
+- Private and protected route
+- Authentication sytem
+- About me
 ## Technologies used
- -react
- -firebase
- -react firebase hooks
- -bootstrap
- -react router dom
- -html
- -css
+ - React
+ - Firebase
+ - React firebase hooks
+- Bootstrap
+ - React router dom
+ - Html
+ - Css
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.

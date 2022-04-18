@@ -17,7 +17,7 @@ import Notfound from './components/Notfound/Notfound';
 
 function App() {
   return (
-    <div>
+    <div >
       <Header></Header>
       <Routes>
 
