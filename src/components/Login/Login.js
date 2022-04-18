@@ -61,28 +61,28 @@ const Login = () => {
         navigate(from, { replace: true })
     }
     return (
-        <div className='mx-auto w-50 container'>
-            <h1 className='text-primary text-center'>Login</h1>
-            <Form onSubmit={handleSubmit}>
+        <div style={{ minHeight: '100vh' }} className='mx-auto w-50 container'>
+            <h1 className=' text-center' style={{ color: 'orangeRed' }}>Login</h1>
+            <Form onSubmit={handleSubmit} >
                 <Form.Group className="mb-3" controlId="formBasicEmail">
-                    <Form.Label>Email address</Form.Label>
+                    <Form.Label style={{ color: 'orangeRed', fontWeight: '500' }}>Email address</Form.Label>
                     <Form.Control ref={emailRef} type="email" placeholder="Enter email" />
 
                 </Form.Group>
 
                 <Form.Group className="mb-3" controlId="formBasicPassword">
-                    <Form.Label>Password</Form.Label>
+                    <Form.Label style={{ color: 'orangeRed', fontWeight: '500' }}><bold>Password</bold></Form.Label>
                     <Form.Control ref={passRef} type="password" placeholder="Password" />
                 </Form.Group>
                 {/* <Form.Group className="mb-3" controlId="formBasicCheckbox">
                     <Form.Check type="checkbox" label="Check me out" />
                 </Form.Group> */}
-                <Button variant="primary w-50 mx-auto d-block mb-2" type="submit">
+                <Button style={{ backgroundColor: 'orangered', color: 'white' }} variant=" w-50 mx-auto d-block mb-2" type="submit">
                     Login
                 </Button>
             </Form>
-            <p>new to car <span onClick={navigateRegister} className='text-danger'>Please Register</span></p>
-            <p>Forget Password? <button className='btn btn-link text-primary pe-auto text-decoration-none' onClick={resetPassword}>Reset Password</button> </p>
+            <p>No account?<span onClick={navigateRegister} className='text-danger'>Please Register</span></p>
+            <p>Forget Password? <button className='btn btn-link text-warning pe-auto text-decoration-none' onClick={resetPassword}>Reset Password</button> </p>
             {errorElement}
             <Social></Social>
             <ToastContainer />

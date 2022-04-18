@@ -9,7 +9,8 @@ const Courses = () => {
     }, [])
     return (
         <div>
-            <h1 className='text-center mb-4'>Total courses {courses.length}</h1>
+            <h1 style={{ color: 'orangered' }} className='text-center mb-4'>Services</h1>
+            <h4 className='text-center mb-5'>total courses {courses.length}</h4>
             <div className='courses ms-5'>
 
                 {

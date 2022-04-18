@@ -9,9 +9,9 @@ const Reviews = () => {
         fetch('review.json').then(res => res.json()).then(data => setReviews(data));
     }, [])
     return (
-        <div>
+        <div >
 
-            <h1 style={{ color: 'orange' }} className='text-center '>Reviews</h1>
+            <h1 style={{ color: 'orangered' }} className='mb-4 text-center '>Reviews</h1>
 
             <div className='reviews'>
                 {

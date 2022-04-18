@@ -2,7 +2,7 @@ import React from 'react';
 
 const About = () => {
     return (
-        <div>
+        <div style={{ minHeight: '100vh' }}>
             <h1>Name : Sabeek Bin Sayeed</h1>
             <p>Goals:
                 for the next 3 months, I have some targets:
